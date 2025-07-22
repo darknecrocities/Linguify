@@ -1,5 +1,5 @@
 
-## Linguify AI Toolkit
+## 🖊 Linguify AI Toolkit
 -------------------
 
 🔗 Live Demo: https://linguifyy.streamlit.app/
