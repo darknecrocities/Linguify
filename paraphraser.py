@@ -8,7 +8,7 @@ model = GenerativeModel('models/gemini-2.0-flash')
 def paraphrase_with_gemini(text):
     if not text.strip():
         return ""
-    prompt = f"Paraphrase fluently and clearly:\n\n{text}"
+    prompt = f"Paraphrase fluently and clearly (Result Only):\n\n{text}"
     response = model.generate_content(prompt)
     return response.text.strip()
 

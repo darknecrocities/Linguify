@@ -6,7 +6,7 @@ model = GenerativeModel('models/gemini-2.0-flash')
 def humanize_text(text):
     if not text.strip():
         return ""
-    prompt = f"Rewrite this text to sound more natural and human-friendly without changing the meaning:\n\n{text}"
+    prompt = f"Rewrite this text to sound more natural and human-friendly without changing the meaning (Result Only):\n\n{text}"
     response = model.generate_content(prompt)
     return response.text.strip()
 
