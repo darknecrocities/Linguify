@@ -43,7 +43,7 @@ tool = st.sidebar.radio(
     ]
 )
 st.sidebar.markdown("---")
-st.sidebar.markdown("Created with ❤️ by Linguify. Powered by Google Gemini and Streamlit.")
+st.sidebar.markdown("Created with ❤️ by Rhonzkiee. Powered by Google Gemini and Streamlit.")
 
 # --- Title ---
 st.title("📝 Linguify AI Toolkit - Enhanced")
